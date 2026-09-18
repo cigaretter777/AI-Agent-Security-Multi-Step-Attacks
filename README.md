@@ -3,7 +3,7 @@
 这是对应 Kaggle **AI Agent Security - Multi-Step Tool Attacks**的 GitHub 仓库。
 竞赛：在官方离线沙箱中构建自动化攻击算法，寻找工具调用智能体可稳定复现的安全失效。
 
-> **使用范围：** 仅限 Kaggle 官方沙箱、授权红队测试与防御研究，详见 [SECURITY.md](SECURITY.md)。
+> **使用范围：** 仅限 Kaggle 官方沙箱、授权红队测试与防御研究，详见 [SECURITY.md](ass_repo/SECURITY.md)。
 
 ## 赛后记录
 
