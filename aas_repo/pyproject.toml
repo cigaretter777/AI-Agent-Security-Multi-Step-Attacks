@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kaggle-aas-solution"
+version = "0.1.0"
+description = "Post-competition engineering archive for Kaggle AI Agent Security - Multi-Step Tool Attacks"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = []
+license = {text = "No license granted; see NOTICE.md"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["aas_solution*"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+exclude = ["submission/attack.py", "notebooks/final_submission.py", "experiments/extracted_modules", "baselines/secret_marker.py"]
